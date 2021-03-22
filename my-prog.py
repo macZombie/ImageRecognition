@@ -42,7 +42,7 @@ net = jetson.inference.detectNet("ssd-inception-v2" , threshold=myThreshold )
 
 
 # this is the USB camera
-camera = jetson.utils.gstCamera(1280, 720, "/dev/video1" )
+camera = jetson.utils.gstCamera(1280, 720, "/dev/video0" )
 
 
 display = jetson.utils.glDisplay()
